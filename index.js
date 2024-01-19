@@ -1,4 +1,4 @@
-// Paste your modified index.js code here
+// Modified index.js code .
 $(document).ready(function () {
   $('#image-slider').slick({
     // Slick Slider settings
