@@ -1,6 +1,7 @@
+// Paste your modified index.js code here
 $(document).ready(function () {
-  // Slick Slider initialization
   $('#image-slider').slick({
+    // Slick Slider settings
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -36,9 +37,40 @@ $(document).ready(function () {
       return;
     }
 
-    // Access the form data and perform actions (replace this with your logic)
-    console.log('Registration form submitted!', formData);
+    // Display the submitted name
+    $('#submitted-names').append('<p>' + formData.name + '</p>');
 
     // You can send the form data to a server, update the UI, or perform other actions here
+    console.log('Registration form submitted!', formData);
   });
+
+  // Function to prompt for name and ID
+  function promptForDetails(buttonName) {
+    var userName = prompt('Enter your name:');
+    var userID = prompt('Enter your ID:');
+
+    if (userName && userID) {
+      alert('Name: ' + userName + '\nID: ' + userID + '\nButton clicked: ' + buttonName);
+    } else {
+      alert('Name and ID are required.');
+    }
+  }
+
+  // Add event listeners to buttons
+  $('.apply-button').click(function () {
+    promptForDetails('Apply Now');
+  });
+
+  $('.enroll-button').click(function () {
+    promptForDetails('Enroll Now');
+  });
+
+  $('.register-company-button').click(function () {
+    showAlert('Register Your Company');
+  });
+
+  // Function to show an alert with the button name
+  function showAlert(buttonName) {
+    alert('Button clicked: ' + buttonName);
+  }
 });
