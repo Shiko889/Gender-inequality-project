@@ -69,7 +69,7 @@ $(document).ready(function () {
     showAlert('Register Your Company');
   });
 
-  // Function to show an alert with the button name
+  // Function to show an alert with the button name.
   function showAlert(buttonName) {
     alert('Button clicked: ' + buttonName);
   }

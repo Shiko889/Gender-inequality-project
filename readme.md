@@ -1,7 +1,7 @@
-Gender Equality App
+# Gender Equality App
 This project is a web application that aims to address and combat gender inequality in various aspects of society. The app focuses on creating equal opportunities for women and young girls in areas such as education, employment, and workplace inclusion. Below is an overview of the project structure and its key features.
 
-Sections
+# Sections
 Home
 The home section welcomes users to the Gender Equality App and highlights its mission.
 
@@ -56,3 +56,5 @@ HTML5
 CSS3
 JavaScript (jQuery)
 Slick Slider Library
+
+Author : THARAO SARAH
