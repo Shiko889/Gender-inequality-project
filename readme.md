@@ -57,4 +57,4 @@ CSS3
 JavaScript (jQuery)
 Slick Slider Library
 
-Author : THARAO SARAH
+Author: THARAO SARAH
